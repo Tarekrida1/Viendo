@@ -1,5 +1,7 @@
 body {
+    margin: 200px;
   -webkit-box-shadow: 1px 1px 1px #000;
+    padding: 20px;
           box-shadow: 1px 1px 1px #000;
 }
 /*# sourceMappingURL=style.css.map */
