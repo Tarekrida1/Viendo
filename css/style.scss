@@ -1,5 +1,55 @@
-body {
+$mainColor: #04c3b2;
+$secondColor: #f1f1f1;
 
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+body.main-body {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 690px;
+}
+
+.h1{
+    font-size: 40px;
+}
+
+.under-line{
+    height: 3px;
+    width: 166px;
+    border-radius: 5px;
+    background: $mainColor;
+    margin: 30px 0;
+    position: relative;
+    overflow: hidden
+}
+
+.line-center{
+    margin: auto;
+}
+
+.under-line span{
+    background: #fff;
+    height: 3px;
+    width: 7%;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    left: 10%;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.footer-services:hover .under-line span{
+    left: 150px;
+    width: 1%
+}
+
+.und-trans:hover .under-line span{
+    left: 150px;
+    width: 1%
 }
 /************* start navbar *************/
 
@@ -13,8 +63,9 @@ body {
 		list-style: none;
 		text-transform: none;
 		font-weight: 300;
-		font-family: 'Lato', Arial, sans-serif;
+		font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
 		line-height: 60px;
+        z-index: 100
 }
 
 .gn-menu-main {
@@ -73,6 +124,7 @@ body {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-weight: bold;
+        transition: all .3s;
 }
 
 .gn-menu-main:after {
@@ -341,6 +393,11 @@ input.gn-search:focus {
     // transform: translateX(-50%);
     // border: none;
 }
+
+.gn-menu-main > li > a:hover {
+    color: $mainColor;
+    margin-top: 2px;
+}
 /************ end navbar *******************/ 
 .md-hide {display: none;}
 .sm-hide {display: block;}
@@ -348,3 +405,1208 @@ input.gn-search:focus {
     .md-hide {display: block;} 
     .sm-hide {display: none !important;} 
 }
+
+/************ start Header *******************/
+
+.main-back,.main{
+    width: 100%;
+    height: 690px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.main-back{
+    background-color: $mainColor;
+    z-index: 1;
+    width: 43%;
+    transition: all 7s;
+}
+
+.header .main{
+    height: 690px;
+    background: url(../img/header2.png)center center no-repeat ;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 2;
+    
+   
+    /** Logo Div **/
+    .logo{
+        position: relative;
+        top: 25vh;
+        left: 30px;
+        
+        img{
+            width: 75%;
+        }
+        
+        h2{
+            margin-left: 40px;
+            font-weight: bold;
+            margin-bottom: 10px
+        }
+        
+    }
+    /** .header .main .Content **/
+    .content{
+        height: 690px;
+        margin-top: 175px;
+        overflow: hidden;
+        
+        .header-pro{
+            position: absolute;
+            left: 400px;
+            font-size: 30px;
+            font-weight: bold;
+            span{
+                display: block;
+                position: relative;
+            }
+            
+            span.one{
+                margin-bottom: 35px;
+                margin-left: 30px
+            }
+            
+            span.two{
+                margin-bottom: 50px;
+                margin-left: 75px
+            }
+            
+            span.three{
+                margin-bottom: 66px;
+                margin-left: 100px
+            }
+            
+            span.four{
+                margin-bottom: 55px;
+                margin-left: 80px
+            }
+            
+            span.five{
+                margin-left: 15px
+            }
+        }
+    
+    }
+}
+
+/************ End Header *******************/
+
+/************ Start social *****************/
+.social-section{
+    color: #ccc;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #f1f1f1;
+}
+
+.social-section i{
+    margin: 15px 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: #ccc
+}
+
+.social-section p{
+    color: #989898
+}
+
+.social-section i.fa-facebook:hover{
+    color: #3b5998
+}
+
+.social-section i.fa-twitter:hover{
+    color: #1da1f2
+}
+
+.social-section i.fa-google-plus:hover{
+    color: #dd4b39
+}
+
+.social-section i.fa-pinterest:hover{
+    color: #bd081c
+}
+
+.social-section i.fa-instagram:hover{
+    color: #5851db
+}
+
+.social-section i.fa-stumbleupon:hover{
+    color: #eb4924
+}
+
+
+.social-section i.fa-rss:hover{
+    color: #f26522
+}
+
+.social-section h4{
+    color: #2d2d2d;
+    font-weight: bold
+}
+/************ End Social *******************/
+
+
+/************ Start Services *******************/
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+ .about{
+        
+ h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #2d2d2d
+        }
+    }
+    
+    .viend-serv{
+        .ser-box img{
+            margin-top: 10px
+        }
+        
+        a{
+            color: #2d2d2d
+        }
+    }
+}
+
+/************ End Services *******************/
+
+/************ Start Form *******************/
+.viend-form{
+    background: url("../img/contact.jpg");
+    height: 400px;
+    color: #f1f1f1;
+    overflow: hidden;
+    
+    .form-head{
+        width: 20%;
+        height: 50px;
+        background: #ddd;
+        margin: auto;
+        border-radius: 0 0 25px 25px
+    }
+    
+    .h1{
+        margin-bottom: 50px;
+    }
+
+    .form-group input{
+        padding: 40px;
+        border-radius: 40px 0 0 40px;
+        border: none;
+        background-color: #ccc; 
+    }
+    
+    .form-group input:focus{
+        box-shadow: 20px 0 60px rgba(4, 195, 178, 0.20);
+        background-color: #fff;  
+    }
+
+    
+    .form-group button{
+        border-radius: 0 40px 40px 0;
+        padding: 24px;
+        font-size: 25px;
+        background: $mainColor;
+        transition: all .1s;
+        font-weight: bold;
+    }
+    
+    button:hover{
+            box-shadow: 15px 15px 15px 0 rgba(239, 51, 122, 0.2);
+            background: #ef337a;
+            color: #fff
+        }
+}
+/************ End Form *******************/
+
+/************ Start Projects *******************/
+.Projects{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #757575;
+    
+    .under-line{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px
+        }
+    
+    .project-box{
+        transition: all .3s;
+        background: #f1f1f1;
+        overflow: hidden;
+        cursor: pointer;
+        padding-top: 40px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        
+        img{
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            margin-bottom: 30px;
+            border-radius: 10px;
+            transition: all .1s;
+            
+        }
+        span{
+            display: block;
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 20px
+        }
+        
+        a{
+            color: #909090
+        }
+    }
+    
+    .project-box:hover{
+        background-color: $mainColor;
+        color: #f1f1f1
+    }
+    
+    .project-box:hover a{
+        color: #ccc
+    }
+    
+    
+}
+/************ End Projects *******************/
+
+/************ start Testimonials *******************/
+
+.Testimonials {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #f1f1f1;
+    background-color: #151414;
+    overflow: hidden;
+    .under-line{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        span{
+            background: #151414;
+        }
+    }
+    
+    
+    .test{
+        height: 390px;
+        
+        .carousel-inner{
+            img{
+                display: inline-block;
+            }
+            
+            span.user-name{
+                display: block;
+                color: $mainColor;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            
+            span.comp{
+                margin-bottom: 20px;
+                font-size: 12px;
+            }
+            
+            span.quots-left{
+                display: block;
+                color: $mainColor;
+                font-size: 40px;
+            }
+            
+            span.quots-right{
+                display: block;
+                color: $mainColor;
+                font-size: 40px;
+            }
+        
+            p{
+            color: #f1f1f1;
+            }  
+            
+        }   
+    }
+    
+    .control{
+        text-align: center;
+        
+        a.carousel-control{
+            position: relative;
+            font-size: 30px;
+            margin: auto;
+            padding: 5px;
+            margin-right: 10px;
+            text-align: center;
+            overflow: hidden;
+            color: #fff;
+            background: none;
+            display: inline-block;
+            border: 1px solid #fff;
+            border-radius: 15px;
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+        
+        }
+        
+        .carousel-control:hover{
+            color: $mainColor
+        }
+    }
+}
+    
+
+/************ End Testimonials *******************/
+
+.our-expereince{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+    .counter .count-box{
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        padding: 60px 50px 60px 50px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all .3s;
+        border-radius: 20px;
+        
+        span{
+            font-size: 50px;
+            font-weight: 200
+        }
+        
+        h4.h1{
+            color: #7b8697;
+        }
+    }
+    
+    ul{
+        
+        li{
+            line-height: 2;
+            font-size: 18px;
+            font-weight: bold;
+            color: #757575;
+            
+            i{
+                margin-right: 10px;
+                color: $mainColor;
+                font-weight: none;
+            }
+        }
+    }
+}
+
+.counter .count-box:hover{
+    background: $mainColor;
+    color: #fff
+}
+
+.counter .count-box:hover h4{
+    color: #f1f1f1
+}
+/************ End Expereince *******************/
+
+/************ Start Customers *******************/
+.viend-customers{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    .h1{
+        margin-bottom: 40px
+    }
+    
+    .under-line{
+        margin: auto;
+        width: 230px;
+    }
+    
+    
+    .boxing{
+        height: 200px;
+        position: relative;
+        width: 100%;
+    }  
+    img{
+        filter: grayscale(100%);
+        transition: all .3s;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        
+    }
+    
+    
+    img:hover{
+        filter: grayscale(0);
+    }
+}
+
+
+/************ End Customers *******************/
+
+
+/************ Start Subscribe *******************/
+.subscribe{
+    
+    .hed{
+        width: 25%;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        h5{
+        
+            margin-bottom: 0;
+            padding: 10px;
+            padding-left: 5%;
+            font-weight: bold;
+            margin-top: 30px;
+            
+            span{
+                margin-left: 10px;
+                color: $mainColor;
+            }
+        }
+        
+        img{
+            text-align: center;
+            display: block;
+            position: absolute;
+            bottom: 110px;
+            width: 100px;
+        }
+    }
+    
+    .subs-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 25%;
+        float: left;
+        color: #fff;
+        text-align: center;
+        transition: all .3s;
+        
+        i{
+            font-size: 45px;
+            
+            transition: all .7s;
+            display: block;
+        }
+        
+        
+        h6{
+            font-size: 22px;
+        }
+    }
+    
+    .subs-box:hover{
+        background-color: #151414;
+    }
+    
+    .facebook{
+        background-color: #4cc2c0;
+    }
+    
+    .youtube{
+        background-color: #3cb878;
+    }
+    
+    .magazine{
+        background-color: #fcb03b;
+    }
+}
+
+/************ End Subscribe *******************/
+
+/************ Start Footer *******************/
+.footer{
+    background-color: #151414;
+    overflow: hidden;
+    padding-top: 50px;
+    color: #757575;
+    
+    .footer-head{
+        
+        span{
+            background: #151414;
+        }
+        
+        .about-viendo{
+            
+            .h1{
+                color: #fff
+            }
+            
+            p{
+                font-size: 18px;
+            }
+        }
+        
+        .footer-services{
+            
+            .h1{
+                color: #fff;
+            }
+            
+            ul{
+                list-style: none;
+                font-size: 14px;
+                li{
+                    line-height: 2;
+                    transition: all .3s;
+                    i{
+                        margin-right: 10px;
+                        color: #757575;
+                    }
+                    
+                    a{
+                        color: #757575;
+                    }
+                }
+                li:hover a{
+                    color: $mainColor;
+                    text-decoration: none;
+                }
+                
+                li:hover i{
+                    color: $mainColor;
+                    text-decoration: none;
+                }
+                
+                li:hover{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    
+    .footer-contact{
+        border-top: 2px solid rgba(255, 255, 255, 0.1);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+        
+        .cont span{
+            font-size: 17px;
+            color: #f1f1f1;
+            font-weight: bold;
+            overflow: inherit;
+        }
+        
+        .icon-call{
+            color: #fcb03b;
+        }
+        
+        .icon-email{
+            color: #f15b26;
+        }
+        
+        .icon-location{
+            color: #3cb878;
+        }
+        
+        .icon i{
+            font-size: 50px;
+        }
+    }
+    
+}
+
+.copyright{
+    background-color: #0f0f0f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+    a{
+        color: $mainColor
+    }
+    }
+
+/************ Start Pages head *******************/
+.pages-head{
+    height: 250px;
+    width: 100%;
+    background: url("../img/pages-head.jpg");
+    margin-top: 60px;
+    
+    
+    .head-data{
+        background: rgba(4,195,178,0.5);
+        height: 250px;
+        width: 100%;
+        padding-top: 50px;
+        color: #fff;
+        
+        h1{
+            font-size: 48px;
+        }
+        
+        ul{
+            margin-top: 20px;
+            li{
+                float: left;
+                margin-right: 15px;
+                font-size: 21px;
+                a{
+                    color: #fff;
+                }
+        }
+        }
+    }
+}
+
+.viendo-story{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+    p{
+        padding-top: 30px
+    }
+}
+
+/************ End Pages head *******************/
+
+/************************************************************* services page ***********************************************/
+.ser-video{
+    
+    .image-block{
+        background: url("../img/ser-back.jpg") no-repeat;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        border-radius: 30px;
+        
+        .vid-overlay{
+            background: rgba(0,0,0,.6);
+            height: 700px;
+            border-radius: 30px;
+        }
+    }
+}
+
+.viendo-services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    .serv-box{
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        height: 652px;
+        transition: all .3s;
+        
+        img{
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        h4{
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        p{
+            color: #fff
+        }
+        
+        a{
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+    
+    
+    
+    .social{
+        background-color: #6739b6;
+    }
+    
+    .graphic{
+        background-color: #4cc2c0;
+    }
+    
+    .web-development{
+        background-color: #f15b26;
+    }
+    
+    .seo{
+        background-color: #fcb03b;
+    }
+    
+    .adword{
+        background-color: #3cb878;
+    }
+    
+    .video{
+        background-color: #ef2f78;
+    }
+}
+
+.serv-box:hover{
+        background-color: #fff;
+    }
+
+.serv-box:hover p.lead{
+        color: #757575 ;
+    }
+
+.serv-box:hover a{
+        color: #2d2d2d;
+    }
+
+/************************************************************* Clients page ***********************************************/
+.vindo-clients{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #757575;
+    
+    .under-line{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px
+        }
+    
+    .clients-box{
+        transition: all .3s;
+        cursor: pointer;
+        padding-top: 40px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        
+        img{
+            margin-bottom: 30px;
+            transition: all .3s;
+            filter: grayscale(100%);
+            
+        }
+        span{
+            display: block;
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 20px
+        }
+        
+    }
+    
+    .clients-box:hover img{
+        filter: grayscale(0);
+    }
+    
+    .project-box:hover a{
+        color: #ccc
+    }
+}
+
+
+/************************************************************* Portfolio page ***********************************************/
+
+/** categories **/
+.categories-data{
+    background: #fff;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 50px 0
+}
+
+.categories-data .categories #my-tabs{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff
+}
+
+.categories-data .categories #my-tabs li{
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    color: #2d2d2d;
+    position: relative;
+    margin-right: 15px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.categories-data .categories #my-tabs li:hover{
+    color: $mainColor
+}
+
+.categories-data .categories #my-tabs li.active{
+    color: $mainColor;
+}
+
+.categories-data .categories #my-tabs li.active:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: $mainColor;
+    border-radius: 50%;
+    position: absolute;
+    top: 27px;
+    left: 3px;
+}
+
+.categories-data .categories>div{
+    text-align: left;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 56px;
+}
+
+.categories-data .categories>div:not(:first-of-type){
+    display: none
+}
+
+.categories-data .categories .items{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.categories-data .categories .items img{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.categories-data .categories .items:hover img{
+    transform: scale(1.2,1.2)
+}
+
+.categories-data .categories .items .overlay{
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    bottom: -407px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.categories-data .categories .items:hover .overlay{
+    bottom: 0
+}
+
+
+.categories-data .categories .items .items-details{
+    position: absolute;
+    bottom: -200px;
+    background: #fff;
+    width: 100%;
+    padding: 10px 0; 
+    padding-left: 30px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.categories-data .categories .items .items-details h2{
+    margin-bottom: 20px;
+    color: #2d2d2d
+}
+
+.categories-data .categories .items .items-details p{
+    color: #757575;
+}
+
+.categories-data .categories .items:hover .items-details{
+    bottom: 0
+}
+
+.categories-data .categories .items a{
+    background: $mainColor;
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    left: -100px;
+    color: #fff;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+.categories-data .categories .items:hover a{
+    left: 10px
+}
+
+.under-line2{
+    height: 4px;
+    width: 100px;
+    border-radius: 5px;
+    background: $mainColor;
+    margin: 15px 0;
+    position: relative;
+    overflow: hidden
+}
+
+
+/******************************************************* Start About Page *********************************************************************/
+.emplo-box {
+    padding: 50px 0;
+    overflow: hidden
+}
+.emplo-box > div {
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.emplo-box .items {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 45px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.emplo-box .items img {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.emplo-box .items:hover img {
+    transform: scale(1.2, 1.2);
+    filter: blur(5px);
+}
+
+.emplo-box .items .overlay {
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: -407px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.emplo-box .items:hover .overlay {
+    bottom: 0
+}
+
+
+.emplo-box .items .items-details {
+    position: absolute;
+    bottom: -200px;
+    background-color: #fff;
+    width: 100%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #2d2d2d
+}
+
+.emplo-box .items .items-details p{
+    color: #757575;
+}
+.emplo-box .items:hover .items-details {
+    bottom: 0
+}
+
+.emplo-box .items a {
+    position: absolute;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    left: -100px;
+    color: #fff;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    border: 1px solid #fff;
+}
+
+.emplo-box .items a.twitter {
+    top: 55px
+}
+
+.emplo-box .items a.gmail {
+    top: 90px
+}
+
+.emplo-box .items:hover a {
+    left: 10px
+}
+
+.vision{
+    background-color: #04c3b2;
+    color: #fff;
+    padding-top: 50px;
+    overflow: hidden;
+    
+    p{
+        margin-top: 50px;
+        font-size: 30px
+    }
+    .under-line {
+        background: #2d2d2d;
+        
+        span{
+        background-color: #04c3b2
+    }
+    }
+    
+}
+/************************************************** End About Page **************************************************************************/
+
+/******************************************************* Start Contact Page *********************************************************************/
+
+.contact-details{
+    .details{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 50px;
+        box-shadow: 40px 0 80px rgba(0, 0, 0, 0.15);
+        background-color: #f7f9f9;
+        overflow: hidden;
+        img{
+            margin-right: 20px;
+            float: left;
+        }
+        
+        span.first{
+            font-size: 20px;
+            color: #2d2d2d;
+            display: block;
+            margin-top: 10px;
+        }
+        
+        span.second{
+            font-size: 15px;
+            color: #757575
+        }
+        
+    }
+}
+
+.contact-form{
+    padding: 30px 0;
+    
+    .form-group {
+        
+        input, textarea, select{
+            border: none;
+            padding: 35px 40px;
+            border-color: transparent;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            font-size: 16px;
+            color: #757575;
+            margin-bottom: 30px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            background-color: #f7f9f9;
+            width: 100%;
+    
+        }
+        
+        textarea{
+            min-height: 233px;
+        }
+        
+        button{
+            background: $mainColor;
+            border: none;
+            border-radius: 50px;
+            padding: 24px;
+            width: 100%;
+            font-weight: bold;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            color: #fff;
+            font-size: 20px;
+            overflow: hidden;
+        }
+        
+        button:hover{
+            box-shadow: 9px 9px 9px 0 rgba(76, 194, 192, 0.2);
+            background: #ef337a;
+        }
+    }
+        
+    label{
+        color: #757575;
+        margin-left: 35px;
+        font-size: 20px;
+        
+        sup{
+            color: red;
+            font-size: 15px;
+        }
+    }
+    
+    select{
+        -webkit-appearance: none;
+        padding:25px !important ;
+    }
+}
+
+
+.form-group textarea:focus{
+    box-shadow: 40px 0 60px rgba(0, 0, 0, 0.15);
+     background-color: #fff;
+    
+}
+
+.contact-form .form-group input:focus{
+    box-shadow: 40px 0 60px rgba(0, 0, 0, 0.15);
+         background-color: #fff;
+
+}
+/******************************************************* Start Contact Page *********************************************************************/
+
+/*# sourceMappingURL=style.scss.map */
