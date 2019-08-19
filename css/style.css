@@ -459,6 +459,8 @@ input.gn-search:focus {
   height: 400px;
   color: #f1f1f1;
   overflow: hidden; }
+  .viend-form .col-md-6, .viend-form .col-md-2 {
+    padding: 0; }
   .viend-form .form-head {
     width: 20%;
     height: 50px;
@@ -468,7 +470,7 @@ input.gn-search:focus {
   .viend-form .h1 {
     margin-bottom: 50px; }
   .viend-form .form-group input {
-    padding: 40px;
+    padding: 35px;
     border-radius: 40px 0 0 40px;
     border: none;
     background-color: #ccc; }
@@ -477,8 +479,8 @@ input.gn-search:focus {
     background-color: #fff; }
   .viend-form .form-group button {
     border-radius: 0 40px 40px 0;
-    padding: 24px;
-    font-size: 25px;
+    padding: 22px;
+    font-size: 18px;
     background: #04c3b2;
     transition: all .1s;
     font-weight: bold; }
@@ -642,54 +644,55 @@ input.gn-search:focus {
 
 /************ End Customers *******************/
 /************ Start Subscribe *******************/
-.subscribe .hed {
-  width: 25%;
-  float: left;
-  position: relative;
+.subscribe {
   overflow: hidden; }
-  .subscribe .hed h5 {
-    margin-bottom: 0;
-    padding: 10px;
-    padding-left: 5%;
-    font-weight: bold;
-    margin-top: 30px; }
-    .subscribe .hed h5 span {
-      margin-left: 10px;
-      color: #04c3b2; }
-  .subscribe .hed img {
+  .subscribe .hed {
+    width: 25%;
+    float: left;
+    position: relative;
+    overflow: hidden; }
+    .subscribe .hed h5 {
+      margin-bottom: 0;
+      padding: 10px;
+      padding-left: 5%;
+      font-weight: bold;
+      margin-top: 30px; }
+      .subscribe .hed h5 span {
+        margin-left: 10px;
+        color: #04c3b2; }
+    .subscribe .hed img {
+      text-align: center;
+      display: block;
+      position: absolute;
+      bottom: 110px;
+      width: 100px; }
+  .subscribe .subs-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 25%;
+    float: left;
+    color: #fff;
     text-align: center;
-    display: block;
-    position: absolute;
-    bottom: 110px;
-    width: 100px; }
-.subscribe .subs-box {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 25%;
-  float: left;
-  color: #fff;
-  text-align: center;
-  transition: all .3s; }
-  .subscribe .subs-box i {
-    font-size: 45px;
-    transition: all .7s;
-    display: block; }
-  .subscribe .subs-box h6 {
-    font-size: 22px; }
-.subscribe .subs-box:hover {
-  background-color: #151414; }
-.subscribe .facebook {
-  background-color: #4cc2c0; }
-.subscribe .youtube {
-  background-color: #3cb878; }
-.subscribe .magazine {
-  background-color: #fcb03b; }
+    transition: all .3s; }
+    .subscribe .subs-box i {
+      font-size: 45px;
+      transition: all .7s;
+      display: block; }
+    .subscribe .subs-box h6 {
+      font-size: 22px; }
+  .subscribe .subs-box:hover {
+    background-color: #151414; }
+  .subscribe .facebook {
+    background-color: #4cc2c0; }
+  .subscribe .youtube {
+    background-color: #3cb878; }
+  .subscribe .magazine {
+    background-color: #fcb03b; }
 
 /************ End Subscribe *******************/
 /************ Start Footer *******************/
 .footer {
   background-color: #151414;
-  overflow: hidden;
   padding-top: 50px;
   color: #757575; }
   .footer .footer-head span {
@@ -753,7 +756,7 @@ input.gn-search:focus {
   background: url("../img/pages-head.jpg");
   margin-top: 60px; }
   .pages-head .head-data {
-    background: rgba(4, 195, 178, 0.5);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
     height: 250px;
     width: 100%;
     padding-top: 50px;
@@ -776,17 +779,15 @@ input.gn-search:focus {
     padding-top: 30px; }
 
 /************ End Pages head *******************/
-/************************************************************* services page ***********************************************/
-.ser-video .image-block {
-  background: url("../img/ser-back.jpg") no-repeat;
-  background-size: cover;
-  height: 700px;
-  width: 100%;
-  border-radius: 30px; }
-  .ser-video .image-block .vid-overlay {
-    background: rgba(0, 0, 0, 0.6);
-    height: 700px;
-    border-radius: 30px; }
+/************************************************************* Start services page ***********************************************/
+.ser-video {
+  padding: 50px 0; }
+  .ser-video .image-block {
+    height: 100%;
+    width: 100%; }
+  .ser-video span {
+    font-size: 85px;
+    color: #ef2f78; }
 
 .viendo-services {
   padding-top: 50px;
@@ -834,6 +835,7 @@ input.gn-search:focus {
 .serv-box:hover a {
   color: #2d2d2d; }
 
+/************************************************************* End Services Page ***********************************************/
 /************************************************************* Clients page ***********************************************/
 .vindo-clients {
   padding-top: 70px;
@@ -851,15 +853,14 @@ input.gn-search:focus {
     margin-bottom: 30px; }
     .vindo-clients .clients-box img {
       margin-bottom: 30px;
-      transition: all .3s;
-      filter: grayscale(100%); }
+      transition: all .3s; }
     .vindo-clients .clients-box span {
       display: block;
       font-weight: bold;
       font-size: 25px;
       margin-bottom: 20px; }
   .vindo-clients .clients-box:hover img {
-    filter: grayscale(0); }
+    transform: scale(1.1, 1.1); }
   .vindo-clients .project-box:hover a {
     color: #ccc; }
 
