@@ -1112,6 +1112,7 @@ input.gn-search:focus {
         margin-bottom: 40px;
         height: 652px;
         transition: all .3s;
+        position: relative;
         
         img{
             max-width: 100%;
@@ -1133,6 +1134,8 @@ input.gn-search:focus {
         a{
             color: #fff;
             font-size: 30px;
+            position: absolute;
+            bottom: 20px;
         }
     }
     
