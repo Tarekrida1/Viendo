@@ -14,18 +14,19 @@ body.main-body {
     font-size: 40px;
 }
 
+.line-center{
+    margin: auto;
+}
+
 .under-line{
     height: 3px;
     width: 166px;
     border-radius: 5px;
     background: $mainColor;
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden
-}
-
-.line-center{
-    margin: auto;
 }
 
 .under-line span{
@@ -1610,6 +1611,106 @@ input.gn-search:focus {
          background-color: #fff;
 
 }
-/******************************************************* Start Contact Page *********************************************************************/
+/******************************************************* End Contact Page *********************************************************************/
+
+
+/******************************************************* Start Social Media Service Page ********************************************************/
+
+.social-media-ser{
+    padding: 0 50px;
+   ul{
+        
+        li{
+            line-height: 2;
+            font-size: 18px;
+            font-weight: bold;
+            color: #757575;
+            
+            i{
+                margin-right: 10px;
+                color: $mainColor;
+                font-weight: none;
+            }
+        }
+    }
+ 
+}
+
+.promotion{
+    padding-top: 100px;
+    background: url("../img/Services/background.jpg");
+    
+    .under-line{
+        background-color: #fff;
+        span{
+            background-color: $mainColor;
+        }
+    }
+}
+/** categories social **/
+.categories-data-social{
+    padding: 50px 0;
+}
+
+.categories-data-social .ser-categories #my-tabs{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.categories-data-social .ser-categories #my-tabs li{
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2d2d2d;
+    position: relative;
+    margin: 0px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #ddd;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.categories-data-social .ser-categories #my-tabs li i{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.categories-data-social .ser-categories #my-tabs li.active{
+    background-color: #bdbdbd;
+}
+
+.categories-data-social .ser-categories>div:not(:first-of-type){
+    display: none;
+}
+
+.categories-data-social .ser-categories .brief{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 5px 9px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.sub{
+     padding: 25px;
+    box-shadow: 0 5px 9px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    h6{
+        color: $mainColor
+    }
+    
+}
+/******************************************************* Start Social Media Service Page ********************************************************/
 
 /*# sourceMappingURL=style.scss.map */

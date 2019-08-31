@@ -29,7 +29,7 @@ $(function () {
     $("#my-tabs li").click(function () {
         var myID = $(this).attr("id");
         $(this).addClass("active").siblings().removeClass("active");
-        $(".categories>div").hide();
+        $(".ser-categories>div").hide();
         $("#" + myID + "-content").fadeIn(1000);
     });
 
