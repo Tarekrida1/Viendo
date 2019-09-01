@@ -33,6 +33,13 @@ $(function () {
         $("#" + myID + "-content").fadeIn(1000);
     });
 
+$("#my-tabs li").click(function () {
+        var myID = $(this).attr("id");
+        $(this).addClass("active").siblings().removeClass("active");
+        $(".categories>div").hide();
+        $("#" + myID + "-content").fadeIn(1000);
+    });
+
 /** Type Writer **/
 var myText = "Boost Your Business !",
     i = 0;
