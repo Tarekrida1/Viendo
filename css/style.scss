@@ -1791,6 +1791,92 @@ input.gn-search:focus {
     }
     
 }
-/******************************************************* Start Social Media Service Page ********************************************************/
+
+/******************************************************* End Social Media Service Page ********************************************************/
+
+/******************************************************* Media Query ********************************************************/
+
+@media(max-width:768px) {
+    .header .main{
+        background: #fff;
+    }
+    
+    .header .main .logo h2{
+        margin-left: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .social-section{
+        text-align: center;
+    }
+    
+    .services{
+        text-align: center;
+        
+        .under-line{
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .ser-box{
+            margin-bottom: 50px;
+            background: #f1f0f0;
+            padding: 10px;
+        }
+        
+        
+    }
+    
+    .services .about h1{
+            font-size: 30px;
+        }
+    
+    .viend-form{
+        background: #2d2d2d;
+        height: 290px;
+    }
+    
+    .viend-form .form-group button{
+        padding: 25px 0;
+        font-size: 14px;
+    }
+        
+        .viend-form .h1{
+            font-size: 25px;
+        }
+    
+    .Projects h3{
+        font-size: 30px;
+    }
+    
+    .Testimonials{
+        padding-bottom: 100px;
+    }
+    .subscribe .hed{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer .footer-head .about-viendo .h1,.footer .footer-head .footer-services .h1{
+        font-size: 25px;
+    }
+    .footer .footer-contact{
+        text-align: center;
+    }
+    
+    .subscribe .subs-box{
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {}
+
+@media(min-width:991px)and (max-width:1200px) {}
+
+@media(min-width:1200px) {}
+
+
 
 /*# sourceMappingURL=style.scss.map */
