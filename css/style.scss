@@ -682,24 +682,12 @@ input.gn-search:focus {
     
     .h1{
         margin-bottom: 50px;
+        font-size: 45px;
     }
-
-    .form-group input{
-        padding: 35px;
-        border-radius: 40px 0 0 40px;
-        border: none;
-        background-color: #ccc; 
-    }
-    
-    .form-group input:focus{
-        box-shadow: 20px 0 60px rgba(4, 195, 178, 0.20);
-        background-color: #fff;  
-    }
-
     
     .form-group button{
-        border-radius: 0 40px 40px 0;
-        padding: 22px;
+        border-radius: 40px;
+        padding: 15px;
         font-size: 18px;
         background: $mainColor;
         transition: all .1s;
@@ -1804,7 +1792,6 @@ input.gn-search:focus {
     .header .main .logo h2{
         margin-left: 0;
         font-size: 24px;
-        text-align: center;
     }
     
     .social-section{
@@ -1853,10 +1840,23 @@ input.gn-search:focus {
     
     .Testimonials{
         padding-bottom: 100px;
+        
+        h4{
+            font-size: 20px;
+        }
     }
     .subscribe .hed{
         width: 100%;
         text-align: center;
+    }
+    
+    .footer{
+        padding: 15px;
+        
+        .copyright{
+            padding-left: 0;
+            text-align: center;
+        }
     }
     
     .footer .footer-head .about-viendo .h1,.footer .footer-head .footer-services .h1{
@@ -1868,6 +1868,144 @@ input.gn-search:focus {
     
     .subscribe .subs-box{
         width: 100%;
+    }
+    
+    .subscribe .hed img{
+        bottom: 92px;
+    }
+    
+    .pages-head{
+        height: auto;
+        
+        .head-data{
+            height: auto;
+            padding-bottom: 15px;
+        }
+        
+        h1{
+            font-size: 30px;
+        }
+        
+         ul li{
+            font-size: 18px;
+        }
+    }
+    
+    .viendo-story {
+        padding: 10px;
+        img{
+        width: 80%;
+        margin: auto;
+        }
+    }
+    
+    .team{
+        
+        h1{
+            font-size: 26px;
+        }
+        
+        .emplo-box{
+            padding: 0px;
+            
+            h2{
+                font-size: 22px;
+            }
+            
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+    
+    .h1{
+        font-size: 30px;
+    }
+    
+    .vision{
+        p{
+            font-size: 20px;
+        }
+        
+        img{
+            width: 60%;
+        }
+    }
+    
+    .categories-data {
+        text-align: center;
+        
+        .under-line{
+                margin: 20px auto;
+        }
+        .categories #my-tabs li{
+        margin-right: 0;
+        font-size: 9px;
+        
+        width: 24%;
+        padding: 10px;
+    }
+    
+    .categories #my-tabs li.active:after{
+        display: none;
+    }
+    }
+    
+    .contact-details{
+        padding: 10px;
+        text-align: center;
+        
+        .details img{
+            float: none;
+        }
+        
+        span.second{
+            margin-bottom: 30px;
+            display: block;
+        }
+    }
+    
+    .contact-form {
+    padding: 30px 10px;
+        
+        .under-line{
+            margin: 20px auto;
+        }
+}
+    
+    .ser-video{
+        span{
+            display: none;
+        }
+    }
+    
+    .viendo-services{
+        text-align: center;
+        
+        .under-line{
+            margin: 20px auto;
+        }
+    }
+    
+    .social-media-ser {
+    padding: 0px 10px;
+}
+    
+    .promotion{
+        
+        img.cent{
+            width: 70%;
+        }
+        
+        .col-md-4{
+            margin-bottom: 30px
+        }
+    }
+    
+    .categories-data-social .ser-categories #my-tabs li{
+        width: 100%;
+        border-radius: 0px;
+        border-bottom: 1px solid #ccc
     }
 }
 
