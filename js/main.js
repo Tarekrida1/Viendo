@@ -40,6 +40,27 @@ $("#my-tabs li").click(function () {
         $("#" + myID + "-content").fadeIn(1000);
     });
 
+
+//pop up
+    $(".main-section .item").click(function () {
+        $(".pop-up").show();
+        $("body, html").animate({
+            scrollTop: 0
+        }, 1);
+        $("body").css("overflow", "hidden");
+        $(".main-activities, .bio-section").css("filter", "blur(3px)");
+    });
+
+    $(".pop-up-close, .pop-up").click(function () {
+        $(".pop-up").slideUp(100);
+        $("body").css("overflow", "scroll");
+        $("body, html").animate({
+            scrollTop: $(".main-section").offset().top
+        }, 1);
+        $(".main-section, .bio-section").css("filter", "blur(0px)");
+    });
+
+
 /** Type Writer **/
 var myText = "Boost Your Business !",
     i = 0;
