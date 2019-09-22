@@ -16,7 +16,7 @@ body.main-body {
   height: 3px;
   width: 166px;
   border-radius: 5px;
-  background: #04c3b2;
+  background: #04a4e0;
   margin-top: 30px;
   margin-bottom: 30px;
   position: relative;
@@ -321,7 +321,7 @@ input.gn-search:focus {
   animation: animate .3s ease-in-out; }
 
 .h-list li:hover a {
-  color: #04c3b2; }
+  color: #04a4e0; }
 
 .h-list li:nth-child(1) {
   animation: animate .2s ease-in-out; }
@@ -374,7 +374,7 @@ input.gn-search:focus {
   height: 100%; }
 
 .gn-menu-main > li > a:hover {
-  color: #04c3b2;
+  color: #04a4e0;
   margin-top: 2px; }
 
 /************ end navbar *******************/
@@ -399,7 +399,7 @@ input.gn-search:focus {
   left: 0px; }
 
 .main-back {
-  background-color: #04c3b2;
+  background-color: #04a4e0;
   z-index: 1;
   width: 43%;
   transition: all 7s; }
@@ -537,7 +537,7 @@ input.gn-search:focus {
     border-radius: 40px;
     padding: 15px;
     font-size: 18px;
-    background: #04c3b2;
+    background: #04a4e0;
     transition: all .1s;
     font-weight: bold; }
   .viend-form button:hover {
@@ -576,7 +576,7 @@ input.gn-search:focus {
     .Projects .project-box a {
       color: #909090; }
   .Projects .project-box:hover {
-    background-color: #04c3b2;
+    background-color: #04a4e0;
     color: #f1f1f1; }
   .Projects .project-box:hover a {
     color: #ccc; }
@@ -601,7 +601,7 @@ input.gn-search:focus {
       display: inline-block; }
     .Testimonials .test .carousel-inner span.user-name {
       display: block;
-      color: #04c3b2;
+      color: #04a4e0;
       font-size: 18px;
       font-weight: bold; }
     .Testimonials .test .carousel-inner span.comp {
@@ -609,11 +609,11 @@ input.gn-search:focus {
       font-size: 12px; }
     .Testimonials .test .carousel-inner span.quots-left {
       display: block;
-      color: #04c3b2;
+      color: #04a4e0;
       font-size: 40px; }
     .Testimonials .test .carousel-inner span.quots-right {
       display: block;
-      color: #04c3b2;
+      color: #04a4e0;
       font-size: 40px; }
     .Testimonials .test .carousel-inner p {
       color: #f1f1f1; }
@@ -636,7 +636,7 @@ input.gn-search:focus {
       width: 60px;
       line-height: 60px; }
     .Testimonials .control .carousel-control:hover {
-      color: #04c3b2; }
+      color: #04a4e0; }
 
 /************ End Testimonials *******************/
 .our-expereince {
@@ -662,11 +662,11 @@ input.gn-search:focus {
     color: #757575; }
     .our-expereince ul li i {
       margin-right: 10px;
-      color: #04c3b2;
+      color: #04a4e0;
       font-weight: none; }
 
 .counter .count-box:hover {
-  background: #04c3b2;
+  background: #04a4e0;
   color: #fff; }
 
 .counter .count-box:hover h4 {
@@ -715,7 +715,7 @@ input.gn-search:focus {
       margin-top: 30px; }
       .subscribe .hed h5 span {
         margin-left: 10px;
-        color: #04c3b2; }
+        color: #04a4e0; }
     .subscribe .hed img {
       text-align: center;
       display: block;
@@ -771,10 +771,10 @@ input.gn-search:focus {
       .footer .footer-head .footer-services ul li a {
         color: #757575; }
     .footer .footer-head .footer-services ul li:hover a {
-      color: #04c3b2;
+      color: #04a4e0;
       text-decoration: none; }
     .footer .footer-head .footer-services ul li:hover i {
-      color: #04c3b2;
+      color: #04a4e0;
       text-decoration: none; }
     .footer .footer-head .footer-services ul li:hover {
       margin-left: 10px; }
@@ -803,7 +803,7 @@ input.gn-search:focus {
   padding-bottom: 20px;
   padding-left: 50px; }
   .copyright a {
-    color: #04c3b2; }
+    color: #04a4e0; }
 
 /************ Start Pages head *******************/
 .pages-head {
@@ -953,16 +953,16 @@ input.gn-search:focus {
   transition: all .5s ease-in-out; }
 
 .categories-data .categories #my-tabs li:hover {
-  color: #04c3b2; }
+  color: #04a4e0; }
 
 .categories-data .categories #my-tabs li.active {
-  color: #04c3b2; }
+  color: #04a4e0; }
 
 .categories-data .categories #my-tabs li.active:after {
   content: "";
   width: 10px;
   height: 10px;
-  background: #04c3b2;
+  background: #04a4e0;
   border-radius: 50%;
   position: absolute;
   top: 27px;
@@ -1033,7 +1033,7 @@ input.gn-search:focus {
   bottom: 0; }
 
 .categories-data .categories .items a {
-  background: #04c3b2;
+  background: #04a4e0;
   position: absolute;
   top: 20px;
   width: 40px;
@@ -1055,7 +1055,7 @@ input.gn-search:focus {
   height: 4px;
   width: 100px;
   border-radius: 5px;
-  background: #04c3b2;
+  background: #04a4e0;
   margin: 15px 0;
   position: relative;
   overflow: hidden; }
@@ -1199,7 +1199,7 @@ input.gn-search:focus {
   .contact-form .form-group textarea {
     min-height: 233px; }
   .contact-form .form-group button {
-    background: #04c3b2;
+    background: #04a4e0;
     border: none;
     border-radius: 50px;
     padding: 24px;
@@ -1245,7 +1245,7 @@ input.gn-search:focus {
     color: #757575; }
     .ser-desc-video ul li i {
       margin-right: 10px;
-      color: #04c3b2;
+      color: #04a4e0;
       font-weight: none; }
   .ser-desc-video .main-section {
     padding: 100px 0;
@@ -1295,7 +1295,7 @@ input.gn-search:focus {
   .promotion .under-line {
     background-color: #fff; }
     .promotion .under-line span {
-      background-color: #04c3b2; }
+      background-color: #04a4e0; }
 
 /** categories social **/
 .categories-data-social {
@@ -1348,7 +1348,7 @@ input.gn-search:focus {
   overflow: hidden;
   border-radius: 10px; }
   .sub h6 {
-    color: #04c3b2; }
+    color: #04a4e0; }
 
 /******************************************************* End Social Media Service Page ********************************************************/
 /******************************************************* Media Query ********************************************************/
