@@ -476,17 +476,17 @@ input.gn-search:focus {
 .social-section i.fa-twitter:hover {
   color: #1da1f2; }
 
-.social-section i.fa-google-plus:hover {
-  color: #dd4b39; }
-
-.social-section i.fa-pinterest:hover {
-  color: #bd081c; }
-
 .social-section i.fa-instagram:hover {
   color: #5851db; }
 
-.social-section i.fa-stumbleupon:hover {
-  color: #eb4924; }
+.social-section i.fa-linkedin:hover {
+  color: #2B4964; }
+
+.social-section i.fa-snapchat:hover {
+  color: #FFFC00; }
+
+.social-section i.fa-youtube:hover {
+  color: #FF3333; }
 
 .social-section i.fa-rss:hover {
   color: #f26522; }
@@ -504,6 +504,12 @@ input.gn-search:focus {
     font-weight: bold;
     font-size: 40px;
     color: #2d2d2d; }
+  .services .about p.par-hed {
+    font-size: 20px; }
+    .services .about p.par-hed i {
+      font-size: 27px;
+      color: #04a4e0;
+      margin-right: 10px; }
   .services .viend-serv .ser-box img {
     margin-top: 10px; }
   .services .viend-serv a {
