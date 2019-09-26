@@ -708,8 +708,6 @@ input.gn-search:focus {
 /************ Start Subscribe *******************/
 .subscribe {
   background-color: #04a4e0; }
-  .subscribe img {
-    margin-left: 47px; }
   .subscribe i {
     display: block;
     text-align: center;
@@ -1469,12 +1467,15 @@ input.gn-search:focus {
 
   .subscribe {
     background-color: #04a4e0; }
-    .subscribe img {
-      margin-left: 47px; }
-
-  i {
-    border-right: none !important;
-    font-size: 30px !important; } }
+    .subscribe i {
+      border-right: none !important;
+      font-size: 30px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .subscribe {
+    background-color: #04a4e0; }
+    .subscribe i {
+      border-right: none !important;
+      font-size: 30px !important; } }
 /*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */

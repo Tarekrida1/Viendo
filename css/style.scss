@@ -962,10 +962,6 @@ input.gn-search:focus {
 /************ Start Subscribe *******************/
 .subscribe{
     background-color: $mainColor;
-    
-    img{
-        margin-left: 47px;
-    }
         
         i{
             display: block;
@@ -2036,20 +2032,24 @@ input.gn-search:focus {
     }
     
     .subscribe{
-    background-color: $mainColor;
-    
-    img{
-        margin-left: 47px;
+        background-color: $mainColor;
+        i{
+            border-right: none !important;
+            font-size: 30px !important;
         }
-    }
-    
-    i{
-        border-right: none !important;
-        font-size: 30px !important;
-    }
+    }  
 }
 
-@media(min-width:768px) and (max-width:991px) {}
+@media(min-width:768px) and (max-width:991px) {
+    
+    .subscribe{
+        background-color: $mainColor;
+        i{
+            border-right: none !important;
+            font-size: 30px !important;
+        }
+    }  
+}
 
 @media(min-width:991px)and (max-width:1200px) {}
 
