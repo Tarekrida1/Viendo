@@ -1,5 +1,5 @@
 $mainColor: #04a4e0;
-$secondColor: #f1f1f1;
+$secondColor: #3b3b3d;
 
 body {
     font-family: 'Varela Round', sans-serif;
@@ -961,71 +961,20 @@ input.gn-search:focus {
 
 /************ Start Subscribe *******************/
 .subscribe{
-    overflow: hidden;
-    .hed{
-        width: 25%;
-        float: left;
-        position: relative;
-        overflow: hidden;
-        h5{
-        
-            margin-bottom: 0;
-            padding: 10px;
-            padding-left: 5%;
-            font-weight: bold;
-            margin-top: 30px;
-            
-            span{
-                margin-left: 10px;
-                color: $mainColor;
-            }
-        }
-        
-        img{
-            text-align: center;
-            display: block;
-            position: absolute;
-            bottom: 110px;
-            width: 100px;
-        }
-    }
-    
-    .subs-box{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        width: 25%;
-        float: left;
-        color: #fff;
-        text-align: center;
-        transition: all .3s;
+    background-color: $mainColor;
         
         i{
-            font-size: 45px;
-            
-            transition: all .7s;
             display: block;
-        }
-        
-        
-        h6{
-            font-size: 22px;
-        }
+            text-align: center;
+            color: #fff;
+            font-size: 40px;
+            line-height: 2;
+            border-right: 1px solid #fff;
+            
     }
     
-    .subs-box:hover{
-        background-color: #151414;
-    }
-    
-    .facebook{
-        background-color: #4cc2c0;
-    }
-    
-    .youtube{
-        background-color: #3cb878;
-    }
-    
-    .magazine{
-        background-color: #fcb03b;
+    i.last{
+        border-right: none !important;
     }
 }
 
@@ -1105,20 +1054,8 @@ input.gn-search:focus {
             overflow: inherit;
         }
         
-        .icon-call{
-            color: #fcb03b;
-        }
-        
-        .icon-email{
-            color: #f15b26;
-        }
-        
-        .icon-location{
-            color: #3cb878;
-        }
-        
-        .icon i{
-            font-size: 50px;
+        .icon{
+            color: $mainColor;
         }
     }
     

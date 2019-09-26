@@ -707,49 +707,16 @@ input.gn-search:focus {
 /************ End Customers *******************/
 /************ Start Subscribe *******************/
 .subscribe {
-  overflow: hidden; }
-  .subscribe .hed {
-    width: 25%;
-    float: left;
-    position: relative;
-    overflow: hidden; }
-    .subscribe .hed h5 {
-      margin-bottom: 0;
-      padding: 10px;
-      padding-left: 5%;
-      font-weight: bold;
-      margin-top: 30px; }
-      .subscribe .hed h5 span {
-        margin-left: 10px;
-        color: #04a4e0; }
-    .subscribe .hed img {
-      text-align: center;
-      display: block;
-      position: absolute;
-      bottom: 110px;
-      width: 100px; }
-  .subscribe .subs-box {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 25%;
-    float: left;
-    color: #fff;
+  background-color: #04a4e0; }
+  .subscribe i {
+    display: block;
     text-align: center;
-    transition: all .3s; }
-    .subscribe .subs-box i {
-      font-size: 45px;
-      transition: all .7s;
-      display: block; }
-    .subscribe .subs-box h6 {
-      font-size: 22px; }
-  .subscribe .subs-box:hover {
-    background-color: #151414; }
-  .subscribe .facebook {
-    background-color: #4cc2c0; }
-  .subscribe .youtube {
-    background-color: #3cb878; }
-  .subscribe .magazine {
-    background-color: #fcb03b; }
+    color: #fff;
+    font-size: 40px;
+    line-height: 2;
+    border-right: 1px solid #fff; }
+  .subscribe i.last {
+    border-right: none !important; }
 
 /************ End Subscribe *******************/
 /************ Start Footer *******************/
@@ -794,14 +761,8 @@ input.gn-search:focus {
       color: #f1f1f1;
       font-weight: bold;
       overflow: inherit; }
-    .footer .footer-contact .icon-call {
-      color: #fcb03b; }
-    .footer .footer-contact .icon-email {
-      color: #f15b26; }
-    .footer .footer-contact .icon-location {
-      color: #3cb878; }
-    .footer .footer-contact .icon i {
-      font-size: 50px; }
+    .footer .footer-contact .icon {
+      color: #04a4e0; }
 
 .copyright {
   background-color: #0f0f0f;
