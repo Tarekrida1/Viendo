@@ -962,6 +962,10 @@ input.gn-search:focus {
 /************ Start Subscribe *******************/
 .subscribe{
     background-color: $mainColor;
+    
+    img{
+        margin-left: 47px;
+    }
         
         i{
             display: block;
@@ -2029,6 +2033,19 @@ input.gn-search:focus {
         width: 100%;
         border-radius: 0px;
         border-bottom: 1px solid #ccc
+    }
+    
+    .subscribe{
+    background-color: $mainColor;
+    
+    img{
+        margin-left: 47px;
+        }
+    }
+    
+    i{
+        border-right: none !important;
+        font-size: 30px !important;
     }
 }
 

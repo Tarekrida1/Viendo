@@ -708,6 +708,8 @@ input.gn-search:focus {
 /************ Start Subscribe *******************/
 .subscribe {
   background-color: #04a4e0; }
+  .subscribe img {
+    margin-left: 47px; }
   .subscribe i {
     display: block;
     text-align: center;
@@ -1463,7 +1465,16 @@ input.gn-search:focus {
   .categories-data-social .ser-categories #my-tabs li {
     width: 100%;
     border-radius: 0px;
-    border-bottom: 1px solid #ccc; } }
+    border-bottom: 1px solid #ccc; }
+
+  .subscribe {
+    background-color: #04a4e0; }
+    .subscribe img {
+      margin-left: 47px; }
+
+  i {
+    border-right: none !important;
+    font-size: 30px !important; } }
 /*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */
