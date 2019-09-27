@@ -959,7 +959,8 @@ input.gn-search:focus {
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  width: 100%; }
 
 .categories-data .categories .items:hover img {
   transform: scale(1.2, 1.2); }
@@ -981,21 +982,15 @@ input.gn-search:focus {
 .categories-data .categories .items .items-details {
   position: absolute;
   bottom: -200px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   padding: 10px 0;
   padding-left: 30px;
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out; }
-
-.categories-data .categories .items .items-details h2 {
-  margin-bottom: 20px;
-  color: #2d2d2d; }
-
-.categories-data .categories .items .items-details p {
-  color: #757575; }
+  transition: all .4s ease-in-out;
+  color: #fff; }
 
 .categories-data .categories .items:hover .items-details {
   bottom: 0; }
@@ -1084,7 +1079,7 @@ input.gn-search:focus {
   color: #2d2d2d; }
 
 .emplo-box .items .items-details p {
-  color: #757575; }
+  color: #04a4e0; }
 
 .emplo-box .items:hover .items-details {
   bottom: 0; }
@@ -1115,7 +1110,7 @@ input.gn-search:focus {
   left: 10px; }
 
 .vision {
-  background-color: #04c3b2;
+  background-color: #04a4e0;
   color: #fff;
   padding-top: 50px;
   overflow: hidden; }
@@ -1327,6 +1322,10 @@ input.gn-search:focus {
   .header .main .logo h2 {
     margin-left: 0;
     font-size: 24px; }
+
+  .pages-head {
+    background: url("../img/PageCover.gif") no-repeat;
+    background-size: cover; }
 
   .social-section {
     text-align: center; }

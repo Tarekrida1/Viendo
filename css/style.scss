@@ -1333,6 +1333,7 @@ input.gn-search:focus {
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+    width: 100%
 }
 
 .categories-data .categories .items:hover img{
@@ -1359,7 +1360,7 @@ input.gn-search:focus {
 .categories-data .categories .items .items-details{
     position: absolute;
     bottom: -200px;
-    background: #fff;
+    background: rgba(0,0,0,.5);
     width: 100%;
     padding: 10px 0; 
     padding-left: 30px;
@@ -1367,17 +1368,8 @@ input.gn-search:focus {
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    color: #fff
 }
-
-.categories-data .categories .items .items-details h2{
-    margin-bottom: 20px;
-    color: #2d2d2d
-}
-
-.categories-data .categories .items .items-details p{
-    color: #757575;
-}
-
 .categories-data .categories .items:hover .items-details{
     bottom: 0
 }
@@ -1478,7 +1470,7 @@ input.gn-search:focus {
 }
 
 .emplo-box .items .items-details p{
-    color: #757575;
+    color: $mainColor;
 }
 .emplo-box .items:hover .items-details {
     bottom: 0
@@ -1515,7 +1507,7 @@ input.gn-search:focus {
 }
 
 .vision{
-    background-color: #04c3b2;
+    background-color: $mainColor;
     color: #fff;
     padding-top: 50px;
     overflow: hidden;
@@ -1818,6 +1810,11 @@ input.gn-search:focus {
         font-size: 24px;
     }
     
+    .pages-head{
+    background: url("../img/PageCover.gif")no-repeat;
+    background-size: cover;
+    }
+    
     .social-section{
         text-align: center;
     }
@@ -1915,14 +1912,14 @@ input.gn-search:focus {
         }
     }
     
-    .viendo-story {
+    .viendo-story{
         padding: 10px;
         img{
-        width: 80%;
-        margin: auto;
-        }
+            width: 80%;
+            margin: auto;
+        }   
     }
-    
+             
     .team{
         
         h1{
