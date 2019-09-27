@@ -8,6 +8,19 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+.soon{
+    padding: 50px 0;
+    
+    img{
+        width: 40%;
+    }
+    
+    h1{
+        color: $mainColor;
+        font-weight: bold;
+    }
+}
+
 body.main-body {
     font-family: 'Varela Round', sans-serif;
     margin-top: 690px;

@@ -5,6 +5,14 @@
 body {
   font-family: 'Varela Round', sans-serif; }
 
+.soon {
+  padding: 50px 0; }
+  .soon img {
+    width: 40%; }
+  .soon h1 {
+    color: #04a4e0;
+    font-weight: bold; }
+
 body.main-body {
   font-family: 'Varela Round', sans-serif;
   margin-top: 690px; }
