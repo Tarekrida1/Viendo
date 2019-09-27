@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.color-main {
+  color: #04a4e0; }
+
 body {
   font-family: 'Varela Round', sans-serif; }
 
@@ -546,10 +549,6 @@ input.gn-search:focus {
     background: #04a4e0;
     transition: all .1s;
     font-weight: bold; }
-  .viend-form button:hover {
-    box-shadow: 15px 15px 15px 0 rgba(239, 51, 122, 0.2);
-    background: #ef337a;
-    color: #fff; }
 
 /************ End Form *******************/
 /************ Start Projects *******************/
@@ -799,6 +798,13 @@ input.gn-search:focus {
 .viendo-story {
   padding-top: 50px;
   padding-bottom: 50px; }
+  .viendo-story button {
+    background: #04a4e0;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 120px; }
   .viendo-story p {
     padding-top: 30px; }
 
@@ -982,15 +988,17 @@ input.gn-search:focus {
 .categories-data .categories .items .items-details {
   position: absolute;
   bottom: -200px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   width: 100%;
-  padding: 10px 0;
-  padding-left: 30px;
+  padding: 15px;
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   color: #fff; }
+  .categories-data .categories .items .items-details p {
+    font-size: 18px;
+    text-align: center; }
 
 .categories-data .categories .items:hover .items-details {
   bottom: 0; }
@@ -1013,15 +1021,6 @@ input.gn-search:focus {
 
 .categories-data .categories .items:hover a {
   left: 10px; }
-
-.under-line2 {
-  height: 4px;
-  width: 100px;
-  border-radius: 5px;
-  background: #04a4e0;
-  margin: 15px 0;
-  position: relative;
-  overflow: hidden; }
 
 /******************************************************* Start About Page *********************************************************************/
 .emplo-box {
@@ -1164,8 +1163,8 @@ input.gn-search:focus {
   .contact-form .form-group button {
     background: #04a4e0;
     border: none;
-    border-radius: 50px;
-    padding: 24px;
+    border-radius: 25px;
+    padding: 20px;
     width: 100%;
     font-weight: bold;
     -webkit-transition: all .3s ease;
@@ -1174,9 +1173,6 @@ input.gn-search:focus {
     color: #fff;
     font-size: 20px;
     overflow: hidden; }
-  .contact-form .form-group button:hover {
-    box-shadow: 9px 9px 9px 0 rgba(76, 194, 192, 0.2);
-    background: #ef337a; }
   .contact-form label {
     color: #757575;
     margin-left: 35px;
@@ -1304,6 +1300,8 @@ input.gn-search:focus {
   margin-top: 50px;
   overflow: hidden;
   border-bottom: 1px solid #2d2d2d; }
+  .categories-data-social .ser-categories .brief strong {
+    color: #04a4e0; }
 
 .sub {
   padding: 25px;
@@ -1313,6 +1311,35 @@ input.gn-search:focus {
   .sub h6 {
     color: #04a4e0; }
 
+/************ Start Projects *******************/
+.social-Projects {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #757575; }
+  .social-Projects .under-line {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .social-Projects .project-box {
+    transition: all .3s;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    margin-bottom: 30px; }
+    .social-Projects .project-box img {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 30px;
+      border-radius: 10px;
+      transition: all .1s; }
+    .social-Projects .project-box span {
+      display: block;
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 20px; }
+    .social-Projects .project-box a {
+      color: #909090; }
+
+/************ End Projects *******************/
 /******************************************************* End Social Media Service Page ********************************************************/
 /******************************************************* Media Query ********************************************************/
 @media (max-width: 768px) {
