@@ -731,6 +731,7 @@ input.gn-search:focus {
         background: $mainColor;
         transition: all .1s;
         font-weight: bold;
+        margin-top: 5px;
     }
     
 }
@@ -1899,7 +1900,6 @@ input.gn-search:focus {
     
     .viend-form{
         background: #2d2d2d;
-        height: 290px;
     }
     
     .viend-form .form-group button{
