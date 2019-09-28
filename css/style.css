@@ -539,12 +539,11 @@ input.gn-search:focus {
     padding: 0; }
   .viend-form .form-head {
     width: 20%;
-    height: 50px;
     background: #ddd;
     margin: auto;
     border-radius: 0 0 25px 25px; }
   .viend-form .h1 {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     font-size: 45px; }
   .viend-form a {
     color: #fff; }
@@ -1361,6 +1360,9 @@ input.gn-search:focus {
   .pages-head {
     background: url("../img/PageCover.gif") no-repeat;
     background-size: cover; }
+
+  .viend-form .form-head {
+    width: 35%; }
 
   .social-section {
     text-align: center; }
