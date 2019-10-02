@@ -467,16 +467,17 @@ input.gn-search:focus {
   padding: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #f1f1f1; }
-
-.social-section i {
-  margin: 15px 10px;
-  -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  cursor: pointer;
-  color: #ccc; }
+  background-color: #3b3b3d; }
+  .social-section i {
+    margin: 15px 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: #ccc; }
+  .social-section h3 {
+    color: #f1f1f1; }
 
 .social-section p {
   color: #989898; }
@@ -837,7 +838,8 @@ input.gn-search:focus {
     margin-bottom: 40px;
     height: 652px;
     transition: all .3s;
-    position: relative; }
+    position: relative;
+    background-color: #04a4e0; }
     .viendo-services .serv-box img {
       max-width: 100%;
       height: auto;
@@ -854,18 +856,6 @@ input.gn-search:focus {
       font-size: 30px;
       position: absolute;
       bottom: 20px; }
-  .viendo-services .social {
-    background-color: #6739b6; }
-  .viendo-services .graphic {
-    background-color: #4cc2c0; }
-  .viendo-services .web-development {
-    background-color: #f15b26; }
-  .viendo-services .seo {
-    background-color: #fcb03b; }
-  .viendo-services .adword {
-    background-color: #3cb878; }
-  .viendo-services .video {
-    background-color: #ef2f78; }
 
 .serv-box:hover {
   background-color: #fff; }

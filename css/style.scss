@@ -598,10 +598,9 @@ input.gn-search:focus {
     padding: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #f1f1f1;
-}
-
-.social-section i{
+    background-color: $secondColor;
+    
+    i{
     margin: 15px 10px;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -609,6 +608,11 @@ input.gn-search:focus {
     transition: all .3s ease-in-out;
     cursor: pointer;
     color: #ccc
+    }
+    
+    h3{
+        color: #f1f1f1
+    }
 }
 
 .social-section p{
@@ -1163,6 +1167,7 @@ input.gn-search:focus {
         height: 652px;
         transition: all .3s;
         position: relative;
+        background-color: $mainColor;
         
         img{
             max-width: 100%;
@@ -1187,32 +1192,6 @@ input.gn-search:focus {
             position: absolute;
             bottom: 20px;
         }
-    }
-    
-    
-    
-    .social{
-        background-color: #6739b6;
-    }
-    
-    .graphic{
-        background-color: #4cc2c0;
-    }
-    
-    .web-development{
-        background-color: #f15b26;
-    }
-    
-    .seo{
-        background-color: #fcb03b;
-    }
-    
-    .adword{
-        background-color: #3cb878;
-    }
-    
-    .video{
-        background-color: #ef2f78;
     }
 }
 
