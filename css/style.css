@@ -716,6 +716,8 @@ input.gn-search:focus {
 /************ Start Subscribe *******************/
 .subscribe {
   background-color: #04a4e0; }
+  .subscribe a:hover {
+    text-decoration: none; }
   .subscribe i {
     display: block;
     text-align: center;
@@ -826,7 +828,7 @@ input.gn-search:focus {
     width: 100%; }
   .ser-video span {
     font-size: 85px;
-    color: #ef2f78; }
+    color: #04a4e0; }
 
 .viendo-services {
   padding-top: 50px;
@@ -836,7 +838,7 @@ input.gn-search:focus {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 40px;
-    height: 652px;
+    height: 550px;
     transition: all .3s;
     position: relative;
     background-color: #04a4e0; }
